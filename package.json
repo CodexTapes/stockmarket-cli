@@ -1,0 +1,29 @@
+{
+  "name": "stockmarket-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodexTapes/stockmarket-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bin": {
+    "stockmarket": "./src/bin/stockmarket-cli",
+    "stockmarket-cli": "./src/bin/stockmarket-cli"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodexTapes/stockmarket-cli/issues"
+  },
+  "homepage": "https://github.com/CodexTapes/stockmarket-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "minimist": "^1.2.5"
+  }
+}
